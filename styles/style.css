@@ -208,3 +208,38 @@ font-weight: 500;
 }
 /* ------------------------ */
 
+/* sponsors section starts here */
+.sponsors-container{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.sponsors-content{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sponsors-images{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.sponsors-images img{
+  width: 150px;
+}
+
+/* responsive media query  */
+@media screen and (max-width: 576px){
+  .sponsors-content{
+    width: 100%;
+  }
+  .sponsors-images{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+}
+
+/* --------------------- */
+
