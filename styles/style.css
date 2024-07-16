@@ -224,6 +224,7 @@ font-weight: 500;
 .sponsors-images{
   display: grid;
   grid-template-columns: repeat(5,1fr);
+  margin: 0 auto;
 }
 
 .sponsors-images img{
@@ -236,10 +237,23 @@ font-weight: 500;
     width: 100%;
   }
   .sponsors-images{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
   }
 }
 
 /* --------------------- */
 
+/* footer section starts here */
+.footers-section{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: rgb(255, 244, 231);
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
